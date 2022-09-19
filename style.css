@@ -44,12 +44,17 @@
         font-size: 30px;
     
     }   
+    .container .btncontainer{
+        display: grid;
+        grid-template-columns: repeat(5,5vw);
+        
+    }
     .container .display input{
-        width: 5vw;
-        height: 6vh;
+        width: 15vw;
+        height: 9vh;
         border: 2px solid black;
         border-radius: 6px;
-        font-size: 10px;
+        font-size: 15px;
         text-align: center;
     }
     .container{
@@ -58,7 +63,7 @@
         text-align: center;
         justify-content: center;
         background-color: rgb(212, 186, 237);
-        width: 10vw;
+        width: 50vw;
         margin:auto;
         height: 60vh;
     }
