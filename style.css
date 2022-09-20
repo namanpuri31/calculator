@@ -38,23 +38,25 @@
 }
 @media (min-width:300px) and (max-width:500px) {
     .container .btncontainer .btnhandle{ 
-        height: 5vh;
+        height: 7vh;
         border: 2px solid black;
         margin: 10px 7px;
         font-size: 30px;
+        align-items: center;
     
     }   
     .container .btncontainer{
         display: grid;
-        grid-template-columns: repeat(5,5vw);
+        grid-template-columns: repeat(5,17vw);
+        justify-content: center;
         
     }
     .container .display input{
-        width: 15vw;
+        width: 70vw;
         height: 9vh;
         border: 2px solid black;
         border-radius: 6px;
-        font-size: 15px;
+        font-size: 30px;
         text-align: center;
     }
     .container{
@@ -63,9 +65,14 @@
         text-align: center;
         justify-content: center;
         background-color: rgb(212, 186, 237);
-        width: 50vw;
+        width: 90vw;
         margin:auto;
         height: 60vh;
     }
+    
+}
+.heading h1{
+    display: flex;
+    justify-content: center;
 }
 

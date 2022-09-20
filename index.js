@@ -3,7 +3,7 @@ const btn=document.querySelectorAll(".btnhandle")
 
 Array.from(btn).forEach((button)=>{
     button.addEventListener("click",(e)=>{
-        if(e.target.innerHTML=='CLEAR'){
+        if(e.target.innerHTML=='C'){
             string=''
             document.querySelector("#numberinp").value=string
         }
